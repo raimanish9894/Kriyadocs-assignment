@@ -1,0 +1,115 @@
+body {
+  background-color: lightgray;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+}
+.header {
+  font-size: 1em;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 10px;
+  text-align: center;
+}
+
+table {
+  border-radius: 0.5rem;
+  margin-top: 15px;
+  border: 1rem hidden #443c68;
+  border-collapse: collapse;
+  box-shadow: 0 0 0 1px black;
+  overflow: hidden;
+  max-width: 75rem;
+  padding-left: 10px;
+}
+thead {
+  font-size: 18px;
+  background-color: #443c68;
+  color: #fff;
+  padding: 10px;
+}
+th {
+  padding: 10px;
+  width: 33.33%;
+  border: 1px solid black;
+}
+td {
+  border: 1px solid #443c68;
+  line-height: 20px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.map {
+  width: 100%;
+  border-radius: 20px;
+  position: unset;
+  height: 700px;
+}
+
+.map .leaflet-container {
+  height: 100%;
+}
+.search-div {
+  margin-left: 80%;
+  margin-top: -650px;
+}
+.search-header {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+}
+.search_wrapper {
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  margin-bottom: 0;
+  font-weight: 500;
+  flex-wrap: nowrap;
+  padding-right: 1rem;
+
+  .clearSearchIconWrapper {
+    position: relative;
+    left: -32px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 700;
+  }
+}
+.noDataFoundWrapper {
+  padding: 20px;
+  padding-left: 0px;
+}
+.searchbar {
+  width: 150px;
+  height: 34px;
+  border-radius: 8px;
+  padding: 5px;
+  padding-right: 20px;
+  font-size: 14px;
+}
+
+.searchButton {
+  margin-left: 15px;
+  width: 80px;
+  height: 34px;
+  border-radius: 8px;
+  background-color: greenyellow;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.table-header {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+}
